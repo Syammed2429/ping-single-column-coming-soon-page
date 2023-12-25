@@ -4,7 +4,7 @@
 
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
+This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da/hub).
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Syammed2429/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://profile-card-nine-psi.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/Syammed2429/ping-single-column-coming-soon-page)
+- Live Site URL: [Add live site URL here](https://ping-single-column-coming-soon-page-d9s9.vercel.app/)
 
 ## My process
 
