@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Libre_Franklin } from 'next/font/google';
 import './globals.css';
+import { Toaster } from 'react-hot-toast';
 
 const libreFranklin = Libre_Franklin({ subsets: ['latin'] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={libreFranklin.className}>{children}</body>
+      <body className={libreFranklin.className}>
+        {children}
+        <Toaster position='bottom-right' />
+      </body>
     </html>
   );
 }

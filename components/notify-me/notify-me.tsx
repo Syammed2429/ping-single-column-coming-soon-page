@@ -13,6 +13,7 @@ import {
   FormItem,
   FormMessage,
 } from '@/components/ui/form';
+import toast from 'react-hot-toast';
 
 const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
@@ -32,7 +33,8 @@ export const NotifyMe = () => {
   });
 
   const onSubmit = () => {
-    alert('sub');
+    toast.success('Successfully subscribed!');
+    form.reset();
   };
   const { errors } = form.formState;
 
