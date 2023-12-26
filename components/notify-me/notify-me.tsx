@@ -61,14 +61,14 @@ export const NotifyMe = () => {
                     } w-[17rem]  md:w-[26rem] placeholder:text-[#B8C7ED] font-light`}
                   />
                 </FormControl>
-                <FormMessage className='text-[#FF5466] text-xs italic font-normal absolute' />
+                <FormMessage className='text-[#FF5466] text-xs italic font-normal md:absolute text-center' />
               </FormItem>
             )}
           />
           <Button
             variant='default'
             className='w-full rounded-[1.75rem] bg-[#4C7BF3]  text-white font-semibold text-center shadow-[0px_5px_10px_2px_rgba(76,123,243,0.23)] px-8 py-5
-            hover:opacity-80 hover:bg-[#4C7BF3]'
+            hover:opacity-80 hover:bg-[#4C7BF3] mt-2 md:mt-0'
           >
             Notify Me
           </Button>
