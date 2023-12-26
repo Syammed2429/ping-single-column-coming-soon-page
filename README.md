@@ -1,10 +1,10 @@
-# Blog Preview card component
+# Ping single column coming soon page
 
-![Design preview for the blog preview card component coding challenge](https://github.com/Syammed2429/blog-preview-card/blob/master/public/assets/desktop-preview.jpg)
+![Design preview for the Ping single column coming soon page coding challenge](https://github.com/Syammed2429/blog-preview-card/blob/master/public/assets/desktop-preview.jpg)
 
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da/hub).
+This is a solution to the [Ping single column coming soon page on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da).
 
 ## Table of contents
 
