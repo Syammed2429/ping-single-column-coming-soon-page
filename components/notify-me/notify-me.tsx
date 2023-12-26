@@ -32,18 +32,19 @@ export const NotifyMe = () => {
     },
   });
 
-  const onSubmit = () => {
+  const onSubmit = (data: any) => {
+    console.log('data:', data);
     toast.success('Successfully subscribed!');
     form.reset();
   };
   const { errors } = form.formState;
 
   return (
-    <div className='mt-10'>
+    <div className='mt-10 '>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className=' flex items-center gap-5'
+          className=' flex flex-col md:flex-row items-center gap-5'
         >
           <FormField
             control={form.control}
@@ -57,7 +58,7 @@ export const NotifyMe = () => {
                     placeholder='Your email address…'
                     className={`py-6 rounded-[1.75rem] border-[1px] ${
                       errors.email ? 'border-[#FF5466]' : 'border-[#C2D3FF]'
-                    } w-[26rem] placeholder:text-[#B8C7ED] font-light`}
+                    } w-[17rem]  md:w-[26rem] placeholder:text-[#B8C7ED] font-light`}
                   />
                 </FormControl>
                 <FormMessage className='text-[#FF5466] text-xs italic font-normal absolute' />
@@ -66,7 +67,7 @@ export const NotifyMe = () => {
           />
           <Button
             variant='default'
-            className='rounded-[1.75rem] bg-[#4C7BF3]  text-white font-semibold text-center shadow-[0px_5px_10px_2px_rgba(76,123,243,0.23)] px-8 py-5
+            className='w-full rounded-[1.75rem] bg-[#4C7BF3]  text-white font-semibold text-center shadow-[0px_5px_10px_2px_rgba(76,123,243,0.23)] px-8 py-5
             hover:opacity-80 hover:bg-[#4C7BF3]'
           >
             Notify Me
