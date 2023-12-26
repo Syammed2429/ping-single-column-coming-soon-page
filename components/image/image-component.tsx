@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ImageComponent = () => {
   return (
-    <div className='align-middle my-[5rem]'>
+    <div className='align-middle my-[5rem] '>
       <Image src={mainImage} alt='mainImage' />
     </div>
   );
